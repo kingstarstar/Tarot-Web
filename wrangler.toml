@@ -1,0 +1,8 @@
+name = "tarot"     # 项目名称
+account_id = "a634911068@gmail.com" # Cloudflare 账户ID（在Dashboard查看）
+compatibility_date = "2024-05-01"
+
+# 静态站点配置
+[site]
+bucket = "./dist"          # 构建后的输出目录（默认是 dist）
+entry-point = "workers-site" # 静态站点入口（由 @cloudflare/workers-site 提供）
